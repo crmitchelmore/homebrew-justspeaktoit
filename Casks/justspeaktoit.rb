@@ -1,6 +1,6 @@
 cask "justspeaktoit" do
-  version "0.18.1"
-  sha256 "ae79d46e8c92f23c22412504a254a4e8ea7a6fdce6faffcc5b4cfc83dab084b8"
+  version "0.18.2"
+  sha256 "4bbe6c6950ee421a80887e732d07284c13109b65a11ff329518127acef79d6f5"
 
   url "https://github.com/crmitchelmore/justspeaktoit/releases/download/mac-v#{version}/JustSpeakToIt-#{version}.dmg"
   name "Just Speak to It"
