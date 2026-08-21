@@ -1,6 +1,6 @@
 cask "justspeaktoit" do
-  version "2.54.0"
-  sha256 "0c8858fec243684bcf897bc20d098b057402919ef0aaccebe2e4618a6078bde8"
+  version "2.60.3"
+  sha256 "fb7a3fc3a6b220e1f1537d3afd22bcb9fa57120eaa4a92917dbd4d2e82769bd3"
 
   url "https://github.com/crmitchelmore/justspeaktoit/releases/download/mac-v#{version}/JustSpeakToIt-#{version}.dmg"
   name "Just Speak to It"
@@ -15,6 +15,7 @@ cask "justspeaktoit" do
   depends_on macos: ">= :sonoma"
 
   app "JustSpeakToIt.app"
+  binary "#{appdir}/JustSpeakToIt.app/Contents/MacOS/speak"
 
   zap trash: [
     "~/Library/Application Support/JustSpeakToIt",
