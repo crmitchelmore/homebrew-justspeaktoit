@@ -1,8 +1,10 @@
 cask "justspeaktoit" do
-  version "2.61.15"
-  sha256 "4e0e4029fd4248eab2bc0f0de7752bd98dd03519a3c368478cc0fa1bdf26e623"
+  arch arm: "arm64", intel: "universal"
 
-  url "https://github.com/crmitchelmore/justspeaktoit/releases/download/mac-v#{version}/JustSpeakToIt-#{version}.dmg"
+  version "2.62.0"
+  sha256 arm: "196255de3df9f94b5d3ca6e66664e769e26a4a9545645a56edc92f4883bc5700", intel: "11be915576a7d122a8fab90a5a705c39f5b525136cd300af608f58682d693ed3"
+
+  url "https://github.com/crmitchelmore/justspeaktoit/releases/download/mac-v#{version}/JustSpeakToIt-#{arch}.dmg"
   name "Just Speak to It"
   desc "Native macOS voice transcription with on-device or cloud processing"
   homepage "https://justspeaktoit.com"
