@@ -1,9 +1,9 @@
 cask "justspeaktoit" do
   arch arm: "arm64", intel: "universal"
 
-  version "2.63.5"
-  sha256 arm:   "b807976ee84082d4b1f5ec14145b8761591841e6dd77d2d4dcbe9879e0d361f5",
-         intel: "25928423ed06ae2dd8413f944737acfa080c6bcafde7ae18c65aa2d1ab7eceb2"
+  version "2.63.6"
+  sha256 arm:   "1e2fabaacba51c1856af909c300c9a3e526d5acea59d1a809dc6e8da70a6a2e6",
+         intel: "a836d6fd3bbbc7c24b3be9b52bdf9a1f9add0056622c2fb3f2cefd63fdc26d0e"
 
   url "https://github.com/crmitchelmore/justspeaktoit/releases/download/mac-v#{version}/JustSpeakToIt-#{arch}.dmg"
   name "Just Speak to It"
