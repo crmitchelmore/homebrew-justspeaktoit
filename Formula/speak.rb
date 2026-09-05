@@ -1,7 +1,7 @@
 class Speak < Formula
   desc "Terminal and agent automation client for Just Speak to It"
   homepage "https://justspeaktoit.com"
-  version "2.71.1"
+  version "2.71.2"
   license "MIT"
 
   livecheck do
@@ -15,12 +15,12 @@ class Speak < Formula
   on_macos do
     on_arm do
       url "https://github.com/crmitchelmore/justspeaktoit/releases/download/mac-v#{version}/speak-#{version}-arm64.zip"
-      sha256 "abc8f02c60b5c6c2c1dc8a056a14a23d8bf33437a0041499c68ab0bb0e78fa59"
+      sha256 "ab8c936a753f3a9ef0471622635e8e442abbd9b271b8f82202ad81e4ee46f6d8"
     end
 
     on_intel do
       url "https://github.com/crmitchelmore/justspeaktoit/releases/download/mac-v#{version}/speak-#{version}-x86_64.zip"
-      sha256 "f60fd6c8aed927b12e25dd3a4cf9a142090c4a4bff4461c1d966051414f45ccd"
+      sha256 "11a0db10f9075d528f72211ea7c16e39bc39870725ba07a719826c260dca3de3"
     end
   end
 
